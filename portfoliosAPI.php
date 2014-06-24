@@ -1,6 +1,19 @@
 <?php
-	// This page contains a variety of Canvas API calls, it is not exhaustive as calls have been added by need
-	// Caution: Not all calls have been tested, some were setup but the approach changed before they were fully tested
+// This program will create a Canvas course for each enrolled student based
+// off a seperate template course
+// Copyright (C) 2014  Kenneth Larsen - Center for Innovative Design and Instruction
+// Utah State University
+
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+// http://www.gnu.org/licenses/agpl-3.0.html
 
 
 /********************************************/
@@ -8,7 +21,7 @@
 /********************************************/
 
 	// Root url for all api calls
-	$canvasURL = 'https://usu.instructure.com/api/v1/';
+	$canvasURL = 'https://<your institution>.instructure.com/api/v1/';
 	// This is the header containing the authorization token from Canvas, depending on the features you use, 
 	// this needs to be an admin token
 	$token = "###################";
